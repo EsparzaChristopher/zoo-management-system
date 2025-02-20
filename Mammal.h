@@ -2,6 +2,7 @@
 
 #ifndef MAMMAL_H
 #define MAMMAL_H
+//class for mammals
 using namespace std;
 class Mammal : public Animal {
 public:

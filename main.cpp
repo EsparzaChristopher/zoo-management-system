@@ -11,6 +11,9 @@ void userMenu(){
     bool running = true;
     int num;
     while(running) {
+        //this allows the user to pick an option
+        //they will then be able to execute the option
+        //by providing the necessary info
     cout << "-----User Menu-----\n";
     cout << "(1) Add an animal\n";
     cout << "(2) Remove an animal\n";

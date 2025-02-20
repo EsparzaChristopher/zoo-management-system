@@ -5,6 +5,7 @@
 
 #ifndef ZOO_H
 #define ZOO_H
+//class for Zoo to store all animals.
 class  Zoo{
 public:
 Zoo();

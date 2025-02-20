@@ -1,5 +1,5 @@
 #include "Animal.h"
-
+//Class for birds
 #ifndef BIRD_H
 #define BIRD_H
 using namespace std;

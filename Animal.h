@@ -1,7 +1,7 @@
 #include <iostream>
 #include <string>
 using namespace std;
-
+//Abstract class for animals
 #ifndef ANIMAL_H
 #define ANIMAL_H
 class Animal {
