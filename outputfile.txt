@@ -1,0 +1,3 @@
+Mammal
+Grizzly
+4

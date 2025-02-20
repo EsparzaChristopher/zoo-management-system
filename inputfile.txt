@@ -1,0 +1,9 @@
+Mammal
+Doug
+35
+Reptile
+Bob
+79
+Bird
+TacoSalad
+43

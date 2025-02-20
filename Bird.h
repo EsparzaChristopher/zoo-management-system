@@ -1,19 +1,19 @@
 #include "Animal.h"
 
-#ifndef MAMMAL_H
-#define MAMMAL_H
+#ifndef BIRD_H
+#define BIRD_H
 using namespace std;
-class Mammal : public Animal {
+class Bird : public Animal {
 public:
 void makeSound() const override
 {
-    cout << "Mammal Noise!" << endl;
+    cout << "Bird Noise!" << endl;
 }
 void displayInfo() const override
 {
   cout << "Name: "<< name << "\nAge: " << age << "\nSpecies: " << species << endl;
 }
-Mammal(string nName, int aAge, string sSpecies) : Animal(nName,aAge,sSpecies) {}
-~Mammal(){}
+Bird(string nName, int aAge, string sSpecies) : Animal(nName,aAge,sSpecies) {}
+~Bird(){}
 };
 #endif
