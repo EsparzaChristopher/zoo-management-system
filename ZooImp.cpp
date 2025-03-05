@@ -31,6 +31,9 @@ void Zoo :: resizeArray(){
     for(int i = 0; i < numAnimals; i++){
         newArray[i] = animals[i];
     }
+    for(int i = 0; i < numAnimals; i++){
+        delete animals[i];
+    }
     delete [] animals;
     animals = newArray;
 
