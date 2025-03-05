@@ -2,19 +2,31 @@
 
 #ifndef MAMMAL_H
 #define MAMMAL_H
-//class for mammals
+
+// Class for mammals, derived from Animal
 using namespace std;
+
 class Mammal : public Animal {
 public:
-void makeSound() const override
-{
-    cout << "Mammal Noise!" << endl;
-}
-void displayInfo() const override
-{
-  cout << "Name: "<< name << "\nAge: " << age << "\nSpecies: " << species << endl;
-}
-Mammal(string nName, int aAge, string sSpecies) : Animal(nName,aAge,sSpecies) {}
-~Mammal(){}
+    // Override makeSound() to provide a mammal-specific sound
+    void makeSound() const override {
+        cout << "Mammal Noise!" << endl;
+    }
+
+    // Override displayInfo() to display mammal-specific information
+    void displayInfo() const override {
+        cout << "Name: " << name 
+             << "\nAge: " << age 
+             << "\nSpecies: " << species << endl;
+    }
+
+    // Constructor to initialize Mammal with name, age, and species
+    Mammal(string nName, int aAge, string sSpecies)
+        : Animal(nName, aAge, sSpecies) {}
+
+    // Destructor
+    ~Mammal() {}
+
 };
-#endif
+
+#endif  // MAMMAL_H
